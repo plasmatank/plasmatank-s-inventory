@@ -1,3 +1,2 @@
 # plasmatank-s-inventory
-:D
-Plasmatank's inventory.Just have a look.
+Plasmatank's inventory.Just take a look. :D
