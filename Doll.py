@@ -14,12 +14,11 @@ def func(strings, fix):
 
 while True:
     string = input(">>")
-    string_list = string
     print("".join(temps := func(string, "前缀")), end=" : ")
     print(string.count("".join(temps)))
     for i in temps:
         string = string.replace(i, "")
-    print("".join(double_temps := list(reversed(func("".join(reversed(string_list)), "后缀")))), end=" : ")
+    print("".join(double_temps := list(reversed(func("".join(reversed(string)), "后缀")))), end=" : ")
     print(string.count("".join(double_temps)))
     for i in double_temps:
         string = string.replace(i, "")
